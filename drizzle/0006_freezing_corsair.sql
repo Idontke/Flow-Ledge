@@ -1,0 +1,1 @@
+ALTER TABLE `ledger_crypto_transactions` ADD `funding_account_id` integer REFERENCES ledger_accounts(id);

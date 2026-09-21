@@ -1,0 +1,20 @@
+{
+  "name": "FlowLedger 净值簿",
+  "short_name": "净值簿",
+  "description": "快速记账、资产配置与月度复盘。",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "lang": "zh-CN",
+  "categories": ["finance", "productivity"],
+  "background_color": "#17211d",
+  "theme_color": "#17211d",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

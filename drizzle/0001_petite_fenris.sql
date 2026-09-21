@@ -1,0 +1,1 @@
+ALTER TABLE `ledger_accounts` ADD `archived` integer DEFAULT false NOT NULL;

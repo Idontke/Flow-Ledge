@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2868" viewBox="0 0 1320 2868">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#2d4037"/>
+      <stop offset="0.58" stop-color="#1d2b25"/>
+      <stop offset="1" stop-color="#17211d"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="28" stdDeviation="34" flood-color="#08100c" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+  <rect width="1320" height="2868" fill="#17211d"/>
+  <rect width="1320" height="2868" fill="url(#glow)"/>
+  <circle cx="660" cy="1180" r="420" fill="#d8ff5f" opacity="0.045"/>
+  <g filter="url(#shadow)">
+    <rect x="456" y="1230" width="408" height="408" rx="112" fill="#203029" stroke="#506259" stroke-width="3"/>
+    <text x="660" y="1499" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="180" font-weight="800" letter-spacing="-18" fill="#ffffff">F<tspan fill="#d8ff5f">L</tspan><tspan dx="-5" fill="#d8ff5f">.</tspan></text>
+  </g>
+  <text x="660" y="1752" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="13" fill="#f4f1e9">FLOWLEDGER</text>
+  <rect x="558" y="1824" width="204" height="6" rx="3" fill="#34453d"/>
+  <rect x="558" y="1824" width="122" height="6" rx="3" fill="#d8ff5f"/>
+</svg>
